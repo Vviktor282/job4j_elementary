@@ -12,5 +12,11 @@ public class Sequence {
         array[2][0] = 7;
         array[2][1] = 8;
         array[2][2] = 9;
+
+        int[][] numbers = {{1}, {2, 3}, {4, 5, 6}, {7, 8, 9, 10}};
+        System.out.println(numbers[0].length);
+        System.out.println(numbers[1].length);
+        System.out.println(numbers[2].length);
+        System.out.println(numbers[3].length);
     }
 }
